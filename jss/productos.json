@@ -1,0 +1,257 @@
+[
+    {
+        "id": 0,
+        "nombre": "Adidas Superstar",
+        "imagen": "../img/1.jpg",
+        "tipo": "zapatillas",
+        "precio": 15500,
+        "descripcion": {
+            "horma": "Horma clásica",
+            "exterior": "Exterior de malla",
+            "suela": "Suela duradera",
+            "color": "Blanco y negro",
+            "talle": "38/44",
+            "articulo": "AS120"
+        }
+    },
+    {
+        "id": 1,
+        "nombre": "Nike Airmax 270",
+        "imagen": "../img/2.jpg",
+        "tipo": "zapatillas",
+        "precio": 18000,
+        "descripcion": {
+            "horma": "Horma clásica",
+            "exterior": "Exterior de malla",
+            "suela": "Suela duradera",
+            "color": "Blanco y negro",
+            "talle": "35/43",
+            "articulo": "NA270"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Puma Flyer Runner",
+        "imagen": "../img/3.jpg",
+        "tipo": "zapatillas",
+        "precio": 20350,
+        "descripcion": {
+            "horma": "Horma deportiva",
+            "exterior": "Exterior de malla",
+            "suela": "Suela duradera",
+            "color": "Blanco y negro",
+            "talle": "38/42",
+            "articulo": "PF005"
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Nike Jordan Max 200",
+        "imagen": "../img/4.jpg",
+        "tipo": "zapatillas",
+        "precio": 22200,
+        "descripcion": {
+            "horma": "Horma deportiva",
+            "exterior": "Exterior de malla",
+            "suela": "Suela duradera",
+            "color": "Blanco y negro",
+            "talle": "36/44",
+            "articulo": "NJ200"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Pantalon Adidas AdiColor",
+        "imagen": "../img/pantAdicolor.jpg",
+        "tipo": "pantalon",
+        "precio": 10000,
+        "descripcion": {
+            "corte": "Corte ajustado",
+            "cintura": "Cintura elástica",
+            "material": "70% Algodón, 30% poliester",
+            "color": "Rojo y blanco",
+            "talle": "S/M/L/XL",
+            "articulo": "AC800"
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Pantalon Adidas Tiro",
+        "imagen": "../img/pantTiro.jpg",
+        "tipo": "pantalon",
+        "precio": 7000,
+        "descripcion": {
+            "corte": "Corte clásico",
+            "cintura": "Cintura elástica",
+            "material": "100% Poliester",
+            "color": "Azul y blanco",
+            "talle": "S/M/L/XL",
+            "articulo": "AT730"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Pantalon Puma Intl Game",
+        "imagen": "../img/pantIntlGame.jpg",
+        "tipo": "pantalon",
+        "precio": 4500,
+        "descripcion": {
+            "corte": "Corte moderno",
+            "cintura": "Cintura elástica",
+            "material": "100% Poliester",
+            "color": "Negro",
+            "talle": "S/M/L/XL",
+            "articulo": "PI456"
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "Pantalon Nike SportsWear",
+        "imagen": "../img/pantSportswear.jpg",
+        "tipo": "pantalon",
+        "precio": 9000,
+        "descripcion": {
+            "corte": "Corte moderno",
+            "cintura": "Cintura elástica",
+            "material": "100% Algodón",
+            "color": "Negro",
+            "talle": "S/M/L/XL",
+            "articulo": "NS218"
+        }
+    },
+    {
+        "id": 8,
+        "nombre": "Remera Adidas Aero Ready",
+        "imagen": "../img/remAeroready.jpg",
+        "tipo": "remera",
+        "precio": 3200,
+        "descripcion": {
+            "corte": "Corte clásico",
+            "cuello": "Cuello redondo",
+            "material": "100% Poliester",
+            "color": "Gris",
+            "talle": "S/M/L/XL",
+            "articulo": "AR336"
+        }
+    },
+    {
+        "id": 9,
+        "nombre": "Remera Adidas M Fi Camo Tee",
+        "imagen": "../img/remMfi.jpg",
+        "tipo": "remera",
+        "precio": 5500,
+        "descripcion": {
+            "corte": "Corte clásico",
+            "cuello": "Cuello redondo",
+            "material": "100% Algodón",
+            "color": "Verde y negro",
+            "talle": "S/M/L/XL",
+            "articulo": "NS218"
+        }
+    },
+    {
+        "id": 10,
+        "nombre": "Remera Nike Futura",
+        "imagen": "../img/remFutura.jpg",
+        "tipo": "remera",
+        "precio": 5000,
+        "descripcion": {
+            "corte": "Corte clásico",
+            "cuello": "Cuello redondo",
+            "material": "100% Algodón",
+            "color": "Negro",
+            "talle": "S/M/L/XL",
+            "articulo": "NF009"
+        }
+    },
+    {
+        "id": 11,
+        "nombre": "Remera Puma Avenir",
+        "imagen": "../img/remAvenir.jpg",
+        "tipo": "remera",
+        "precio": 3800,
+        "descripcion": {
+            "corte": "Corte clásico",
+            "cuello": "Cuello redondo",
+            "material": "100% Algodón",
+            "color": "Blanco",
+            "talle": "S/M/L/XL",
+            "articulo": "PA124"
+        }
+    },
+    {
+        "id": 12,
+        "nombre": "Remera Fila Storm",
+        "imagen": "../img/remStorm.jpg",
+        "tipo": "remera",
+        "precio": 7000,
+        "descripcion": {
+            "corte": "Corte clásico",
+            "cuello": "Cuello redondo",
+            "material": "100% Algodón",
+            "color": "Blanco y celeste",
+            "talle": "S/M/L/XL",
+            "articulo": "FS074"
+        }
+    },
+    {
+        "id": 13,
+        "nombre": "Pelota Adidas Argentina",
+        "imagen": "../img/pelArg.jpg",
+        "tipo": "accesorio",
+        "precio": 4500,
+        "descripcion": {
+            "material": "100% TPU",
+            "1": "Cámara de butilo",
+            "2": "Exterior cosido a mano",
+            "3": "Escudo selección Argentina",
+            "color": "Blanco, rojo y azul",
+            "articulo": "AR003"
+        }
+    },
+    {
+        "id": 14,
+        "nombre": "Espinilleras Adidas Predator 20",
+        "imagen": "../img/espPredator.jpg",
+        "tipo": "accesorio",
+        "precio": 4000,
+        "descripcion": {
+            "material": "95% Polipropileno, 5% TPU",
+            "1": "Placa rígida",
+            "2": "Acolchado moldeado de EVA",
+            "3": "Manga de compresión",
+            "color": "Rojo y negro",
+            "articulo": "AP025"
+        }
+    },
+    {
+        "id": 15,
+        "nombre": "Guantes Adidas Predator",
+        "imagen": "../img/guanPredator.jpg",
+        "tipo": "accesorio",
+        "precio": 6000,
+        "descripcion": {
+            "material": "63% Poliester, 37% poliuretano",
+            "1": "Palma 100 % espuma de caucho",
+            "2": "Corte positivo",
+            "3": "Tira que envuelve muñeca",
+            "color": "Rojo y negro",
+            "articulo": "AP720"
+        }
+    },
+    {
+        "id": 16,
+        "nombre": "Bolso Adidas Tiro",
+        "imagen": "../img/bolTiro.jpg",
+        "tipo": "accesorio",
+        "precio": 8500,
+        "descripcion": {
+            "material": "51% poliéster, 49% poliéster reciclado",
+            "1": "Dimensiones: 66 cm x 34,5 cm x 32 cm",
+            "2": "Bolsillo interno con cierre",
+            "3": "Tira acolchada ajustable para el hombro",
+            "color": "Blanco y negro",
+            "articulo": "AT430"
+        }
+    }
+]

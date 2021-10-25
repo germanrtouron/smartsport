@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilos.css">
+        <a name="arriba"></a>
+        <title>SmartSport Store | Homepage</title>
+    </head>
+    <body>
+        <header>
+            <div class="fixed-top">
+                <div class="bordeSuperior">
+                <span>SUSCRIBITE A NUESTRA TIENDA ONLINE</span>
+                </div>
+                <nav class="nav">
+                    <h1 class="nav-title">SMARTSPORT</h1>
+                    <ul>
+                       <li><a class="navLink" href="html/productos.html#zapaContent">CALZADO</a></li>
+                       <li><a class="navLink" href="html/productos.html#pantContent">PANTALONES</a></li>
+                       <li><a class="navLink" href="html/productos.html#remContent">REMERAS</a></li>
+                       <li><a class="navLink" href="html/productos.html#acceContent">ACCESORIOS</a></li>
+                       <li><a class="navLink" data-bs-toggle="modal" data-bs-target="#modalUser">Registrarse</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <button class="darkModeSwitch active" id="switch">
+                        <span><i class="fa fa-sun-o"></i></span>   
+                        <span><i class="fa fa-moon-o"></i></span>
+                    </button>
+                </nav>
+            </div>
+            <div class="modal fade" id="modalUser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Registrarse</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <label for="inputNombre">Ingrese su nombre:</label>
+                      <input type="text" id="inputNombre"> <br> <br>
+                      <label for="inputEmail">Ingrese su email:</label>
+                      <input type="email" id="inputEmail">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="reset" id="btnUserAccept" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancelar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="portada">
+                <img src="img/portada.jpg" alt="Messi" class="portada-img">
+                <h3 class="portada-title">VIVÍ CON GRANDEZA EL DEPORTE</h3>
+                <a href="html/productos.html" class="portada-content">NUESTROS PRODUCTOS</a>
+            </div>
+            <div class="adidassuperstar-portada">
+                <img src="img/adidassuperstar.jpeg" alt="Adidas superstar" class="adidassuperstar-img">
+                <a href="html/productos.html#zapaContent" class="adidassuperstar-title">ADIDAS SUPERSTAR</a>
+                <p class="adidassuperstar-content">Todos tenemos nuestro lado salvaje. Estas zapatillas <b>adidas 
+                    Superstar</b> te permiten mostrar el tuyo. Los detalles con estampado 
+                    animal print reflejan tu actitud audaz y la puntera clásica de 
+                    caucho con relieve evoca el estilo inconfundible de este modelo 
+                    atemporal. Además, su plantilla acolchada te brinda la máxima 
+                    comodidad sin importar lo que te depare el día. Así que ponetelas 
+                    para que la diversión no se detenga.</p>
+                <a href="html/productos.html#zapaContent" class="adidassuperstar-link">COMPRAR AQUÍ</a>
+            </div>
+            <div class="marcas">
+                <img src="img/Adidas_Logo.svg" class="marcas-img" alt="Logo Adidas">
+                <img src="img/Logo_NIKE.svg" class="marcas-img" alt="Logo Nike">
+                <img src="img/Puma_Logo.svg" class="marcas-img" alt="Logo Puma">
+                <img src="img/Fila_logo.svg" class="marcas-img" alt="Logo Fila">
+            </div>
+            <div class="nemezizAd">
+                <video class="videoAd" autoplay muted loop>
+                    <source src="video/nemeziz.mp4" type="video/mp4">
+                </video>
+                <h3 class="nemezizAd-title">ADIDAS NEMEZIZ</h3>
+                <p class="nemezizAd-content">Si el fútbol desata pasiones, esperá a descubrir nuestra gama de botines Nemeziz, aliados 
+                    perfectos de los amantes del deporte. Aspiran a convertirse en un modelo tan emblemático 
+                    como las adidas F50 o las Predator incluyendo innovaciones tecnológicas y de diseño. Una 
+                    opción perfecta para hombres, mujeres y hasta para los futbolistas más pequeños.</p>
+                <a href="html/productos.html" class="nemezizAd-link">COMPRAR AQUÍ</a>
+            </div>
+            <div class="nikeairmax">
+                <a href="html/productos.html#zapaContent"><img class="nikeairmax-img"  src="img/nike-air-max-270-betrue-multicolor-release-date.jpg" alt="Nike Airmax"></a>
+                <div class="nikeairmax-body">
+                    <h4 class="nikeairmax-title">Nike Airmax 270</h4>
+                    <p class="nikeairmax-content">Las primeras Air Max para el día a día te ofrecen más estilo, 
+                    comodidad y una gran actitud en las <b>Nike Air Max 270</b>. El diseño se 
+                    inspira en los iconos de Air Max para destacar la innovación más 
+                    importante de Nike con una amplia ventana y una gran variedad de 
+                    colores modernos.</p>
+                </div>
+            </div>
+            <div class="contenedorDestacados">
+                <section class="contenedorDestacados-productos row">
+                    <div class="tarjetaDestacados col">
+                        <a class="tarjetaDestacados-link" href="html/productos.html#remContent">
+                            <img src="img/remFutura.jpg" alt="Puma Flyer">
+                            <h4>Nike Futura</h4>
+                            <p>Los colores neón y el diseño retro le dan un look retro a la remera Nike 
+                            Futura. La tela de algodón para todos los días y el ajuste clásico 
+                            proporcionan una sensación suave y familiar.</p>
+                        </a>
+                    </div>
+                    <div class="tarjetaDestacados col">
+                        <a class="tarjetaDestacados-link" href="html/productos.html#pantContent"><img src="img/pantSportswear.jpg" alt="Nike Airmax">
+                            <h4>Nike Sportswear</h4>
+                            <p>El único estilo de Nike que necesitas en cada atuendo lo logras con el pantalón 
+                            Nike Sportswear. Llevá el cómodo pantalón Sportswear y sentí cómo su construcción 
+                            de algodón te hace sentir cómodo y relajado todo el tiempo. </p>
+                        </a>
+                    </div>
+                    <div class="tarjetaDestacados col">
+                        <a class="tarjetaDestacados-link" href="html/productos.html#zapaContent"><img src="img/4.jpg" alt="Jaguar">
+                            <h4>Nike Jordan Max 200</h4>
+                            <p>Con elementos de diseño inspirados en las Air Jordan 4, las 
+                            <b>Jordan Max 200</b> aportan un nuevo nivel de Air a las Jordan con 
+                            detalles tradicionales para ofrecer comodidad ideal para el futuro.</p>
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footerlinks row">
+                <div class="footerlinks-column col">
+                    <a href="#arriba">Ir arriba</a>
+                    <a href="">Locales</a>
+                    <a href="">Términos de uso</a>
+                    <a href="">Políticas de privacidad</a>
+                </div>
+                <div class="footerlinks-column col">
+                    <p>Comunicate con nosotros:</p>
+                    <p>ARG +54 11 35133637</p>
+                </div>
+                <div class="footerlinks-column col">
+                    <p>Acerca de SmartSport:</p>
+                    <a href="">Noticias</a>
+                    <a href="">Empleos</a>
+                    <a href="">Inversores</a>
+                </div>
+            </div>
+            <div class="footerlinks borderOff row">
+                <p>© 2021 SmartSport, Inc. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/087b9db179.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/user.js"></script>
+        <script src="js/darkMode.js"></script>
+        <script src="js/navScroll.js"></script>
+    </body>
+</html>

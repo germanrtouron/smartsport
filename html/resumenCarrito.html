@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <a name="arriba"></a>
+    <title>SmartSport | Gracias por tu compra</title>
+  </head>
+  <body>
+    <header class="headerFinalizarCompra">
+      <h1>SmartSport</h1>
+      <h2 id="graciasElement">¡Muchas gracias por elegirnos!</h2>
+      <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Carrito</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/entrega.html">Entrega</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Pago</a>
+          </li>
+        </ul>
+      <p>Estamos cada vez mas cerca</p>
+    </header>
+    <main class="container">
+      <h3 class="pagos-title">Resumen de su carrito:</h3>
+      <div class="row" id="itemsCarritoFinalizar">
+      </div>
+      <div class="totalCarritoFinalizarClass" id="totalCarritoFinalizar">
+      </div>
+      <div class="saludoFinal">
+        <div>
+            <button class="btn btn-primary" id="btnFinalizarCompra">Continuar con la entrega</button>
+            <button class="btn btn-dark btnVolverTienda" id="btnVaciarVolver">Volver a la tienda</button>
+        </div>
+        <p>¡Te invitamos a volver a comprar cuando quieras!</p>
+      </div>
+    </main>
+    <footer>
+      <div class="footerlinks">
+        <a href="#arriba">Volver arriba</a>
+        <a href="">Terminos y condiciones</a>
+        <a href="">Mapa del sitio</a>
+        <a href="">ARG +54 11 35133637</a>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="../js/finalizarCompra.js"></script>
+  </body>
+</html>

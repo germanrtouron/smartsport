@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+      <link rel="stylesheet" href="../css/estilos.css">
+      <title>SmartSport | Gracias por tu compra</title>
+  </head>
+  <body>
+
+      <header class="headerFinalizarCompra">
+          <h1>SmartSport</h1>
+          <h2 id="graciasElement">¡Muchas gracias por elegirnos!</h2>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../html/resumenCarrito.html">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Entrega</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Pago</a>
+            </li>
+          </ul>
+          <p>Ya falta poco</p>
+      </header>
+
+      <main>
+          <h3 class="pagos-title">Complete información de entrega:</h3>
+          <form class="container" id="formEntrega" action="">
+              <div class="row">
+                <div class="col">
+                  <label for="nombre">Nombre(s):</label>
+                  <span class="campoObligatorio">*</span>
+                  <input type="text" class="form-control" id="nombre" placeholder="Nombre(s)" aria-label="First name">
+                </div>
+                <div class="col">
+                  <label for="apellido">Apellido:</label>
+                  <span class="campoObligatorio">*</span>
+                  <input type="text" class="form-control" id="apellido" placeholder="Apellido" aria-label="Last name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="telefonoParticular">Teléfono particular:</label>
+                  <input type="text" class="form-control" id="telefonoParticular" placeholder="Sin espacios ni guiones" aria-label="First name">
+                </div>
+                <div class="col-sm-7">
+                  <label for="telefonoCelular">Teléfono celular:</label>
+                  <input type="text" class="form-control" id="telefonoCelular" placeholder="Sin espacios ni guiones" aria-label="First name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                    <label for="pais">País:</label>
+                    <span class="campoObligatorio">*</span>
+                    <input type="text" class="form-control" id="pais" placeholder="País" aria-label="City">
+                  </div>
+                <div class="col-sm">
+                  <label for="ciudad">Ciudad:</label>
+                  <span class="campoObligatorio">*</span>
+                  <input type="text" class="form-control" id="ciudad" placeholder="Ciudad" aria-label="State">
+                </div>
+                <div class="col-sm-4">
+                  <label for="direccion">Calle:</label>
+                  <span class="campoObligatorio">*</span>
+                  <input type="text" class="form-control" id="direccion" placeholder="Dirección" aria-label="City">
+                </div>
+                <div class="col-sm">
+                  <label for="numero">Número:</label>
+                  <span class="campoObligatorio">*</span>
+                  <input type="text" class="form-control" id="numero" placeholder="Altura" aria-label="Zip">
+                </div>
+                <div class="col-sm">
+                    <label for="CP">CP:</label>
+                    <span class="campoObligatorio">*</span>
+                    <input type="text" class="form-control" id="CP" placeholder="CP" aria-label="Zip">
+                  </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email:</label>
+                <span class="campoObligatorio">*</span>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su email">
+                <div id="emailHelp" class="form-text">Nunca compartas tu email.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Aclaraciones:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <p class="campoObligatorio">* Campos obligatorios</p>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault" id="validationFormCheck1" required>Soy mayor de 18 años</label>
+                <span class="campoObligatorio">*</span>
+              </div>
+              <div class="botonesContacto">
+                <button type="submit" id="btnEnviarFormulario" class="btn btn-primary btn-lg">Continuar con el pago</button>
+                <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Limpiar</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Limpiar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Eliminará toda la información.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cancelar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </form>
+          <div id="modal-error-entrega" class="modal-entrega">
+            <div class="modal-entrega-contenido">
+              <i class="fas fa-window-close modal-cerrar"></i>
+              <span class="modal-entrega-mensaje">Por favor, complete los campos obligatorios de entrega</span>
+            </div>
+          </div>
+      </main>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/087b9db179.js" crossorigin="anonymous"></script>
+      <script src="../js/finalizarCompra.js"></script>
+  </body>
+</html>
